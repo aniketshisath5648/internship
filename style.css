@@ -1,0 +1,419 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image:url(fa8194830cbaa25a7ea80305fb775bcf.jpg);
+    background-size:cover ;
+}
+.main{
+ 
+    height: 100%;
+    width: 100%;
+    
+}
+.upper-main{
+width: 30%;
+height: 60%;
+background-color: white;
+margin-left: 35vw;
+margin-top: 1vw;
+border-radius: 5%;
+}
+.img{
+    margin-left: 11vw;
+    padding-top:2.5vw ;
+    width: fit-content;
+    height: fit-content;
+
+}
+.img img{
+    border-radius: 50%;
+}
+.pro{
+    margin-top: 0.4vw;
+    margin-left: 1.7vw;
+    padding-top: 0.6vw;
+    background-color:rgb(231, 160, 172);
+    width: 3.5vw;
+    border-radius: 0.2vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.2vw;
+}
+.pro h6{
+    color: rgb(226, 9, 46);
+}
+.name{
+    /* background-color: brown; */
+    width: fit-content;
+    margin-left: 7.8vw;
+    margin-top: 1vw;
+}
+.name h1{
+    color:rgb(226, 43, 107);
+    font-size: 1.7vw;
+}
+.name p{
+    padding-left: 2.3vw;
+    color:rgb(226, 43, 107) ;
+}
+.about{
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.about .p2{
+    padding-left: 5vw;
+}
+.about p{
+    color:rgb(226, 43, 107) ;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5vw;
+    /* background-color: brown; */
+}
+.card{
+    /* background-color: aquamarine; */
+    width: 7vw;
+    height: 50%;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+}
+.card a{
+    text-decoration: none;
+}
+.card h6{
+    font-size: 1vw;
+}
+
+.msg{
+    border: solid rgb(226, 43, 107) 1px;
+   
+}
+.msg a h6{
+    color: rgb(226, 43, 107);
+}
+.connect{
+    background-color: rgb(226, 43, 107);
+}
+.connect a h6{
+    color: white;
+}
+.lower-main{
+    width: 30%;
+    height: 40%;
+    background-color: white;
+    margin-left: 35vw;
+    margin-top: 5vw;
+    border-radius: 5%;
+    }
+    .profile{
+        width: 90%;
+        height:30%;
+        /* background-color: brown; */
+        margin-left: 5%;
+        padding-top: 2vw;
+        display: flex;
+    }
+    .img1 img{
+        border-radius: 50%;
+    }
+    .insta{
+        width: 90%;
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-between;
+        color:  rgb(226, 43, 107);
+        margin-left: 10%;
+        margin-top: 1vw;
+    }
+    .wolf{
+        margin-left: 1vw;
+        color: rgb(226, 43, 107);
+    }
+    .wolf p{
+        font-size: 0.9vw;
+    }
+    .about1{
+        margin-top: 2vw;
+        margin-left: 1vw;
+        color:rgb(226, 43, 107) ;
+    }
+    .about1 p{
+        font-size: 1vw;
+    }
+    .yellow{
+        width: 100%;
+        height: 35vw;
+        background-color: black;
+        margin-top: 10vw;
+    }
+    .cardq{
+        width: 20%;
+        height: 90%;
+        background-image: url(a2991bc45ad82817f27adccbdda7d428.jpg);
+        background-size:cover ;
+        margin-left: 40vw;
+        border-radius: 5%;
+        }
+        .img2 img{
+            border-radius: 50%;
+        }
+        .img2{
+            padding-top: 2vw;
+            padding-left: 1vw;
+        }
+        .bub{
+            padding-left: 1vw;
+            padding-top:1.5vw ;
+            display: flex;
+        }
+        .bub h4{
+            font-size: 1.5vw;
+            color: white;
+        }
+        .bub h3{
+            background-color: white;
+            font-size: 1vw;
+            padding-top: .3vw;
+            margin-left: 1.5vw;
+            padding: 0 1vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1vw;
+            color: rgba(255, 191, 0, 0.916);
+        }
+        .text{
+            padding-left: 1vw;
+            padding-top: 1vw;
+            color: white;
+        }
+        .upgrade{
+            background-color: white;
+            border-radius: 1vw;
+            height: 2vw;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 6vw;
+            margin-left: 2vw;
+            
+        }
+        .upgrade h4{
+            color:rgba(255, 191, 0, 0.916) ;
+        }
+        .white{
+            background-color: white;
+            width: 100%;
+            height: 20vw;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10vw;
+        }
+        .master-card{
+            width: 25%;
+            height: 15vw;
+            background-color: brown;
+            border-radius: 1vw;
+            color: white;
+                
+
+        }
+        .red-one{
+            margin-top: 2vw;
+            margin-left: 2vw;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .red-one h1{
+            font-weight: 400;
+        }
+        .red-two{
+            
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            margin-top: 5vw;
+            justify-content: space-around;
+        }
+        .icon{
+            display: flex;
+            flex-direction: column;
+            font-size: 0.5vw;
+        }
+        .icon i{
+            font-size: 2.5vw;
+            color: yellow;
+        }
+        .blue{
+            background-image: url(676f3c86680b0ebcc880a2aab4b9c7d9.jpg);
+            background-size:cover ;
+        }
+        .red{
+            background-image:url(6086bf2cd10a0fb5ccee926b9b83d802.jpg) ;
+            background-size:cover ;
+        }
+        .swift-visa{
+          background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 40vw;
+            width: 100%;
+        }
+        .swift{
+            width: 100%;
+            height: 30vw;
+            display: flex;
+            margin-left: 30vw;
+
+        }
+        .card11{
+            background-color: brown;
+            height: 20vw;
+            width: 30vw;
+            margin-top: 3vw;
+            margin-bottom: 2vw;
+            border-radius: 2vw;
+            overflow: hidden;
+        }
+        .swift-white{
+            background-color: white;
+            height: 100%;
+            width: 70%;
+            
+        }
+        .swift-color{
+            background-color:#52b69a;
+            height: 100%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 2vw;
+        }
+        .s-w{
+            width: 15vw;
+            margin-top: 5vw;
+            margin-left: 1vw;
+        }
+        .s-w p{
+            margin-top: 1vw;
+        }
+        .arrow{
+            background-color: white;
+            height: 3vw;
+            width: 3vw;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .arrow i{
+           font-size: 2vw;
+           color: rgb(34, 168, 168);
+        }
+        .sw{
+            display: flex;
+            flex-direction: row;
+        }
+        .visa-icon{
+            font-size: 3vw;
+        }
+        .ri-mastercard-fill{
+            color: yellow;
+        }
+        .red-co{
+            background-color: #0077b6;
+        }
+        .beize{
+            padding-top: 5vw;
+            background-color: rgb(219, 225, 226);
+            height: 40vw;
+            display: flex;
+            flex-direction: row;
+            padding-left: 8vw;
+            padding-right: 8vw;
+            justify-content: space-around;
+        }
+        .divv{
+            background-color: white;
+            height: 38vw;
+            width: 25vw;
+            border-radius: 1vw;
+        }
+    .div-1-1{
+        background-image: url(a66f0aaadb084c3dacbf09002fc37ae3.jpg);
+width: 80%;
+height: 40%;
+margin-left: 10%;
+margin-top: 10%;
+margin-bottom: 10%;
+border-radius: 1vw;
+    }
+    .case{
+        background-color: #8cc4e2;
+        color: #0077b6;
+        width: fit-content;
+        border-radius: .2vw;
+        padding: 0.2vw 0.5vw;
+        margin-left: 2vw;
+        
+    }
+    .publish{
+        margin-left: 2vw;
+        padding-top: 1vw;
+    }
+    .publish p{
+        font-size: 1vw;
+    }
+    .div-1-2 h3{
+        font-size: 1.4vw;
+        font-weight: 400;
+        margin-left: 2vw;
+        margin-top:2vw ;
+        
+    }
+    .senst{
+        margin-left: 2vw;
+        margin-top: 2vw;
+        color: gray;
+        font-size: 0.9vw;
+        margin-bottom: 2vw;
+    }
+    .div-1-2 a{
+        margin-left: 2vw;
+        color: #0077b6;
+        padding-top: 2vw;
+        text-decoration: none;
+     
+    }
+    .case-2{
+        background-color: violet;
+        color: rgb(139, 20, 139) ;
+    }
+    .div-2 .div-1-2 a{
+        color: rgb(139, 20, 139);
+    }
+    .second{
+        background-image: url(be64f31124ce373b2fe8746681496378.jpg);
+    }
+    .third{
+        background-image: url(e227053cc1567fe6f1ec8cda10e57896.jpg);
+    }
+
+
+
